@@ -2,20 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
     <p>See console</p>
+
     <script>
-        console.log("Hello world!");
+        var x = 100; //prompt('pick a number');
+        if(x > 100) {
+            console.log("Wow, that's a big number.")
+        }
+        else if(x % 2 === 0) {
+            console.log("x is even");
+        }
+        else {
+            console.log("X is odd.");
+        }
 
-        var x = 7;
-        var y = 22;
-        var sum = x + y;
-
-        console.log("The sum is", sum);
     </script>
 </body>
 </html>
